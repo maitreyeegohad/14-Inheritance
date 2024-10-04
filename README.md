@@ -19,8 +19,8 @@ Inheritance is a key feature of object-oriented programming (OOP) that allows a 
 
 ### Types of Inheritance
 
-1. **Single Inheritance**: A derived class inherits from a single base class.
-2. **Multiple Inheritance**: A derived class inherits from more than one base class.
-3. **Multilevel Inheritance**: A class is derived from another derived class.
-4. **Hierarchical Inheritance**: Multiple classes are derived from a single base class.
-5. **Hybrid Inheritance**: A combination of two or more types of inheritance.
+1. **Single Inheritance**: A derived class inherits from a single base class. This simplifies the class hierarchy and promotes reusability by allowing the derived class to access and override members of the single base class.
+2. **Multiple Inheritance**: A derived class inherits from more than one base class. This allows a derived class to combine functionalities from multiple base classes, but it can lead to complexities like the diamond problem, where ambiguity arises from shared base classes.
+3. **Multilevel Inheritance**: A class is derived from another derived class. This creates a chain of inheritance, allowing derived classes to extend the behavior of their ancestors, which is useful for creating a clear hierarchy.
+4. **Hierarchical Inheritance**: Multiple classes are derived from a single base class. This allows multiple classes to share common features from a single base class, promoting code reusability and organization within related classes.
+5. **Hybrid Inheritance**: A combination of two or more types of inheritance. This allows for a more flexible design by combining different inheritance types, but it requires careful management of ambiguities and complexities that may arise.
